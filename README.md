@@ -1,4 +1,4 @@
 # online-retail-store-management
 Course Project : CSE-202 DBMS
 
-CLI based, backend system for an online retail store
+This repository contains the database schema, ER diagram, relational model, and SQL queries for managing an online retail store. The database consists of 10 tables: admin, cart, category, coupons, my_orders, order, payments, product, product_category_map, and user. The schema defines the table structures, data types, and constraints. The ER diagram and relational model illustrate the database design and relationships between tables. There are OLAP queries for extracting analytics like category revenue by month/year, top categories by sales, monthly/yearly sales, and product quantity/sales summaries. The repository also includes SQL triggers for updating the cart total cost when the cart is modified and marking coupons as used when applied to an order. This database implementation aims to support the core functionality of an online retail platform for managing products, categories, orders, payments, and user data.
